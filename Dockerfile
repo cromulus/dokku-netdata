@@ -1,0 +1,3 @@
+ARG NETDATA_VERSION="v1.31.0"
+
+FROM netdata/netdata:$NETDATA_VERSION
