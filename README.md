@@ -58,5 +58,9 @@ dokku letsencrypt:enable netdata
 Auth:
 
 ```sh
+# Install http-auth plugin
+dokku plugin:install https://github.com/dokku/dokku-http-auth.git
+
+# Enable HTTP authentication
 dokku http-auth:on netdata <username> <password>
 ```
