@@ -52,7 +52,7 @@ dokku plugin:install https://github.com/dokku/dokku-letsencrypt.git
 dokku config:set --no-restart netdata DOKKU_LETSENCRYPT_EMAIL=you@example.com
 
 # Generate certificate
-dokku letsencrypt posthog
+dokku letsencrypt:enable netdata
 ```
 
 Auth:
